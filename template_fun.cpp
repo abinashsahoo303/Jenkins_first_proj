@@ -26,6 +26,9 @@ int main()
     int res;
     res = add<int>(5,4);
     cout<< "Result is  " << res << endl;
+    float val;
+    val = add<float>(5.2,4.2);
+    cout<< "Result is  " << val << endl;
     number<int> numobj(3);
     cout<< "Return val is  "<< numobj.getnum() << endl;
 }
